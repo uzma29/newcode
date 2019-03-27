@@ -1,8 +1,8 @@
-language: c 
-sudo: false # only for faster builds 
+ language: c
+sudo: false # only for faster builds
 compiler: 
- - clang 
+ - clang
  - gcc
- - clang 
-  - gcc -o Hello Hello.c // we can use gcc instead of clang too 
-   - ./Hello 
+ script:
+- gcc -o Hello Hello.c // we can use gcc instead of clang too
+ - ./Hello

@@ -4,5 +4,5 @@ compiler:
  - clang 
  - gcc
  - clang 
-  - gcc -o test test.c // we can use gcc instead of clang too 
-   - ./test 
+  - gcc -o Hello Hello.c // we can use gcc instead of clang too 
+   - ./Hello 
